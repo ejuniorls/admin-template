@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faAngular, faBootstrap, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'admin-template';
+  title = 'Hello, Angular with Bootstrap and Font Awesome!';
+
+  faAngular = faAngular;
+  faBootstrap = faBootstrap;
+  faFontAwesome = faFontAwesome;
 }

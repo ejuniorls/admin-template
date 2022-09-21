@@ -1,5 +1,10 @@
 <div class="container py-4 px-3 mx-auto">
-  <h1>Hello, Angular with Bootstrap!</h1>
+  <h1>
+    {{ title }}
+    <fa-icon [icon]="faAngular"></fa-icon>
+    <fa-icon [icon]="faBootstrap"></fa-icon>
+    <fa-icon [icon]="faFontAwesome"></fa-icon>
+  </h1>
 
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     I'm a dropdown button
