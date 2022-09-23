@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.min.css";
 
-/* FONTS */
-@import "fonts.css";
+/* Color palette */
+@import "scss-colors";
+
+@import "~bootstrap/scss/bootstrap";
+
+/* Fonts */
+@import "scss-fonts";
+
